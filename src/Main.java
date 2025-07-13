@@ -26,8 +26,8 @@ private  int id;
     }
 }
  class FulltimeEmployee extends Employee{
-private double monthlySalary;
-public FulltimeEmployee(String name,int id, double monthlySalary){
+    private double monthlySalary;
+    public FulltimeEmployee(String name,int id, double monthlySalary){
     super(name,id);
     this.monthlySalary = monthlySalary;
 }
